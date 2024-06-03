@@ -1,5 +1,5 @@
-#include <LiquidCrystal.h>
-#include <PinButton.h>
+#include <LiquidCrystal.h> // https://github.com/arduino-libraries/LiquidCrystal
+#include <PinButton.h>     // https://github.com/poelstra/arduino-multi-button/
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal LCD(7, 8, 9, 10, 11, 12);
