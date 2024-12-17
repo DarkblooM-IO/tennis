@@ -81,13 +81,11 @@ void loop() {
   P2_BTN.update();
 
   // single click to increment score
-  if (P1_BTN.isSingleClick()) {
+  if (P1_BTN.isSingleClick())
     p1.increment_score();
-  }
   
-  if (P2_BTN.isSingleClick()) {
+  if (P2_BTN.isSingleClick())
     p2.increment_score();
-  }
 
   // double click to decrement score
   if (P1_BTN.isDoubleClick())
